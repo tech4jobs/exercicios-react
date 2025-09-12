@@ -1,4 +1,4 @@
-# 🧩 Exercícios de JavaScript Avançado
+# 🧩 Exercícios de React
 
 Este repositório reúne diversos exercícios de **React** resolvidos em **JavaScript**.  
 O objetivo é praticar e fortalecer conceitos avançados da linguagem, como:
