@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculadora, .lista-tarefas {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.calculadora input, .lista-tarefas input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.calculadora button, .lista-tarefas button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.lista-tarefas ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista-tarefas li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
